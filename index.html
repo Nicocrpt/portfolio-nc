@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+
+<body>
+    <div id="hideAll">
+        <div class="loadScreen"></div>
+    </div>
+
+    <div class="PageContent">
+
+        <header>
+            <a href="#sec1" class="logo"><img src="Images/icones/nc-logoW.png" alt=""></a>
+            <ul>
+                <li><a href="#sec1" id="homeLink">Accueil</a></li>
+                <li><a href="#sec2" id="compLink">Compétences</a></li>
+                <li><a href="#projets" id="projetLink">Projets</a></li>
+                <li><a href="#veille" id="veilleLink">Veille_technologique</a></li>
+                <li><a href="#contact" id="contactLink">Contact</a></li>
+            </ul>
+        </header>
+        <main>
+            <div class="container">
+
+                <section class="one" id="sec1">
+                    <div class="mainbox">
+
+                        <div class="empty"></div>
+                        <div class="top">
+                            <div class="center">
+                                <h1>Nicolas Carpita</h1>
+                                <h3>Etudiant en developpement</h3>
+                                <p>Actuellement en formation en BTS SIO (option SLAM), je developpe mes compétences dans de multiples langages informatiques, dans le but de fournir des solutions pratiques au service des entreprises.</p>
+                                <div class="links">
+                                    <button><a href="docs/CV_Nicolas_CARPITA.pdf" download="CV Nicolas CARPITA">CV</a></button>
+                                    <div class="dossiers">
+                                        <button>Dossiers</button>
+                                        <div class="dossiersDwnld">
+                                            <a href="docs/Dossier E4.pdf">Dossier E4</a>
+                                            <a href="docs/Tableau de synthèse - Epreuve E4 btsblanc.pdf" style="padding-bottom: 15px;">Tableau de synthèse</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>               
+                        </div>
+                        <div class="empty"></div>
+                        <div class="scrollArrow">
+                            <img src="Images/icones/arwdwn.png" alt="">
+                        </div>
+
+                        <!-- <div class="content">
+                            
+                            <div class="preamb">
+                                <p>Actuellement en formation en BTS SIO (option SLAM), je developpe mes compétences dans de multiples langages informatiques, dans le but de fournir des solutions pratiques au service des entreprises.</p>
+                            </div>
+                            <div class="links">
+                                <button><a href="docs/CV_Nicolas_CARPITA.pdf" download="CV Nicolas CARPITA">CV</a></button>
+                                <div class="dossiers">
+                                    <button>Dossiers</button>
+                                    <div class="dossiersDwnld">
+                                        <a href="">Dossier E4</a>
+                                        <a href="" style="padding-bottom: 15px;">Dossier E5</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="scrollArrow">
+                            <img src="Images/icones/arwdwn.png" alt="">
+                        </div> -->
+                    </div>
+                    
+                    
+                </section>
+        
+        
+                <section class="two" id="sec2">
+                    <div class="mainbox">
+                        <div class="top">
+                            <h1>Mes compétences</h1>
+                            <p>Ci dessous une liste des langages informatiques que je pratique durant ma formation :</p>
+                        </div>
+                        <div class="bottom">
+
+                            <div class="imgList">
+                                <img src="Images/icones/Python.png" alt="" class="imgItem">
+                                <img src="Images/icones/cSharp.png" alt="" class="imgItem">
+                                <img src="Images/icones/JavaScript.png" alt="" class="imgItem">
+                                <img src="Images/icones/PHP.png" alt="" class="imgItem">
+                                <img src="Images/icones/mysql.png" alt="" class="imgItem">
+                                <img src="Images/icones/html5.png" alt="" class="imgItem">
+                                <img src="Images/icones/CSS.png" alt="" class="imgItem">
+                            </div>
+                            <div class="imgList">
+                                <img src="Images/icones/Python.png" alt="" class="imgItem">
+                                <img src="Images/icones/cSharp.png" alt="" class="imgItem">
+                                <img src="Images/icones/JavaScript.png" alt="" class="imgItem">
+                                <img src="Images/icones/PHP.png" alt="" class="imgItem">
+                                <img src="Images/icones/mysql.png" alt="" class="imgItem">
+                                <img src="Images/icones/html5.png" alt="" class="imgItem">
+                                <img src="Images/icones/CSS.png" alt="" class="imgItem">
+                            </div>
+                            <div class="imgList">
+                                <img src="Images/icones/Python.png" alt="" class="imgItem">
+                                <img src="Images/icones/cSharp.png" alt="" class="imgItem">
+                                <img src="Images/icones/JavaScript.png" alt="" class="imgItem">
+                                <img src="Images/icones/PHP.png" alt="" class="imgItem">
+                                <img src="Images/icones/mysql.png" alt="" class="imgItem">
+                                <img src="Images/icones/html5.png" alt="" class="imgItem">
+                                <img src="Images/icones/CSS.png" alt="" class="imgItem">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="three" id="projets">
+                    <div class="mainbox">
+                        <div class="top">
+                            <h1>Mes Projets</h1>
+                            <p>Ensemble des réalisations que j'ai faites en cours, en entreprise, ou sur mon temps libre.</p>
+                        </div>
+                        <div class="bottom">
+                            <!-- Projet 1 -->
+                            <div class="projet-intro">
+                                <h2>TP : Dictionnaire de données et MCD</h2>
+                                <h4>Etude des besoins d'un projet</h4>
+                                <br>
+                                <img src="Images/projet1/MCDproj.png" alt="" onclick="togglePopup(1)">
+                                <br>
+                                <p>Mise en place d'un dictionnaire de donnée et d'un Modèle Conceptuel de Données pour une bibliothèque.</p>
+                                <br>
+                            </div>
+                            <div class="popup" id="popup-1">
+                                <div class="overlay" onclick="togglePopup(1)"></div>
+                                <div class="content">
+                                    
+                                    <div class="close-btn" onclick="togglePopup(1)">&times;</div>
+                                    
+                                    <div class="mainContent">
+                                        <h1 style="color: black;">Dictionnaire de données et MCD pour une bibliothèque</h1>
+                                        <br>
+                                        <div style="display: flex; flex-direction: column; width: 50%; margin: auto; padding: 40px 0;border-bottom: solid 2px;">
+                                            <h3>Compétences mises en oeuvre pour ce projet :</h3>
+                                            <ul style="list-style: none;">
+                                                <li style="padding-top: 10px;">Collecter, suivre les demandes</li>
+                                                <li style="padding-top: 10px;">Traiter des demandes concernant les applications</li>
+                                                <li style="padding-top: 10px;">Analyser les objectifs et modalités d'organisation d'un projet</li>
+                                                <li style="padding-top: 10px;">planifier les activités</li>
+                                            </ul>
+                                        </div>
+                    
+                                        <div>
+                                            <p style="max-width: 70%; text-align: left; margin: 50px auto 8px auto; "><i>  Le but de ce TP à été de se mettre en condition "réelle", en revenant à la base d'un projet. On imagine ici qu'une Bibliothèque nous a embauché pour developper un gestionnaire de base de données.</i></p>
+
+                                            <p style="max-width: 70%; text-align: left; margin: 8px auto 50px auto;"><i>  Nous nous sommes donc concentrés ici sur les deux premières étapes de tout projet incluant une base de donnée, et même si ces étapes ne comportent pas vraiment de code à proprement parler, elles restent néanmoins primordiales.</i></p>
+                                        </div>
+                                        <div style="margin: auto; width: 50%; border-bottom: 2px solid;"></div>
+                                        
+
+                                        <div style="width: 80%; margin: 50px auto;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">Le dictionnaire de données</h2>
+
+                                            <p style="text-align: left;">La première étape est la réalisation d'un dictionnaire de donnée, On prend ici le temps de lister tout ce dont notre base de donnée va avoir besoin (type de données, relations entre ces dernieres...). Dans l'idéal, cette partie s'effectue en parallèle d'un dialogue auprès des clients qui sont aussi les futurs utilisateurs, et qui savent mieux que quiconque leurs besoins.</p>
+                                        </div>
+                                        
+
+                                        <p style="width: 80%; text-align: left; margin: auto;">Ici une image de notre dictionnaire de données, on peut voir que les données sont déja pré-organisées et prêtes à passer à l'étape suivante :</p>
+                                        <img src="Images/projet1/dictionnaireDeDonnées.png" alt="" style="width: 80%; margin: 20px auto 10px auto; border-radius: 8px;border: solid 2px black">
+                                        
+
+
+                                        <p style="color: rgb(192, 0, 0); width: 80%; text-align: left; margin: 30px auto ;">Cette étape prend du temps, et ne doit pas être négligée car un oubli découvert plus tard dans la réalisation d'un projet (une fois que la base de donnée est créée et fonctionnelle par exemple) peut vite être un casse-tête à regler...</p>
+
+
+                                        <div style="width: 80%; margin: 50px auto; text-align: left;">
+
+                                            <h2 style="margin-bottom:20px;font-size:2em; text-align: center;">Le Modèle Conceptuel de Données (MCD)</h2>
+
+                                            <p>Après avoir mis à plat l'ensemble des données dont nous allons avoir besoin, il est temps d'organiser ces dernieres, avec une modélisation conceptuelle de données.</p>
+
+                                            <div style="display: grid; grid-template-columns: 25% 75%; justify-content: center; align-items: center; width: 100%; margin: 30px auto;">
+                                               <a href="https://www.looping-mcd.fr/" target="_blank"><img src="Images/projet1/looping.png" alt="" style="border-radius: 5px; width: 160px; align-content: center;"></a>
+                                                <p>
+                                                    Pour ce faire, nous avons utilisé l'application <b>Looping</b>, qui permet de créer des schémas de base de donnée, sur un modèle Entité/Relations (Tables et Relations entre les tables).
+                                                    <br>
+                                                    <br>
+                                                    L'interêt de tels schémas et de pouvoir avoir un regard visuel sur notre base de donnée, et ainsi pouvoir plus facilement la structurer, en comparaison avec une création en script directement.
+                                                </p>
+                                            </div>
+                                            
+                                            <br>
+                                            <p>On regroupe ici nos differentes données dans des <b style="color: rgb(255, 174, 0);">tables</b>, qui vont être reliées entre elles via des <b style="color: blue;">relations</b>.</p>
+
+                                            <img src="Images/projet1/MCDproj.png" alt="" style="width: 100%; margin: 20px 0 40px 0; border-radius: 8px;border: solid 2px black">
+
+
+                                            <p style="width: 90%;">L'application Looping permet ensuite de générer un script SQL depuis notre modèle, mais ce script doit généralement être édité pour etre parfaitement fonctionnel, ou pour convenir à notre façon de faire.</p>
+
+                                            <img src="Images/projet1/ScriptBiblio.png" alt="" style="width: 100%; margin: 20px 0 40px 0; border-radius: 8px;border: solid 2px black">
+                                        
+                                        </div>
+
+                                        <div style="margin: auto; width: 50%; border-bottom: 2px solid;"></div>
+
+                                        <div style="width: 70%; margin: 50px auto; padding-bottom: 50px;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">Conclusion</h2>
+
+                                            <p style="text-align: center;">A la fin de ce TP, nous avons donc une base de donnée fonctionnelle, <b>bien structurée</b> et surtout <b>adaptée aux besoins des utilisateurs</b>, grace aux differentes étapes effectués. Ces dernières peuvent encore une fois sembler futiles, mais elles peuvent éviter de devoir faire marche-arrière alors que le projet est à un stade beaucoup plus avancé !</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                    
+                            </div>
+                            <!-- Projet 2 -->
+                            <div class="projet-intro">
+                                <h2>TP : Connexion BDD et login en C#</h2>
+                                <h4>premières interactions avec une base de donnée</h4>
+                                <br>
+                                <img src="Images/CsharpMdpProj.png" alt="" onclick="togglePopup(2)">
+                                <br>
+                                <p>Connexion à une base de données "utilisateurs" en C# et cryptage des mots de passes.</p>
+                                <br>
+                            </div>
+                            <div class="popup" id="popup-2">
+                                <div class="overlay" onclick="togglePopup(2)"></div>
+                                <div class="content">
+                                    
+                                    <div class="close-btn" onclick="togglePopup(2)">&times;</div>
+                                    
+                                    <div class="mainContent">
+                                        <h1 style="color: black;">Connexion BDD et login avec C#</h1>
+                                        <br>
+                                        <div style="display: flex; flex-direction: column; width: 50%; margin: auto; padding: 40px 0;border-bottom: solid 2px;">
+                                            <h3>Compétences mises en oeuvre pour ce projet :</h3>
+                                            <ul style="list-style: none;">
+                                                <li style="padding-top: 10px;">Exploiter des normes et des standards</li>
+                                                <li style="padding-top: 10px;">Vérifier les niveaux d'habilitation</li>
+                                                <li style="padding-top: 10px;">Respecter les règles en terme de sécurité et confidentialité</li>
+                                            </ul>
+                                        </div>
+                    
+                                        <div>
+                                            <p style="max-width: 70%; text-align: left; margin: 50px auto 8px auto; "><i>  Le but de ce TP à été d'apprendre à utiliser des outils (ici la librairie Mysql.data) de connexion à une base de donnée, et à pouvoir commencer à interagir avec de manière pratique et utile.</i></p>
+
+                                            <p style="max-width: 70%; text-align: left; margin: 8px auto 50px auto;"><i>De plus, nous avons également vu, avec l'utilisation d'une base de donnée utilisateurs, les possibilités de cryptages des données ainsi que de bonnes pratiques de sécurité.</i></p>
+                                        </div>
+                                        <div style="margin: auto; width: 50%; border-bottom: 2px solid;"></div>
+                                        
+
+                                        <div style="width: 80%; margin: 50px auto;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">Création de la base de donnée</h2>
+
+                                            <p style="text-align: left;">Nous avons pour commencer créé une simple base de donnée "login", comme suit :</p>
+                                        </div>
+                                        
+                                        <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 80%; margin: 30px auto;">
+                                            <img src="Images/projet2/bddProjet2.png" alt="" style="width: 100%; height: 90%; border-radius: 5px;">
+                                            <p style="width: 80%; margin: auto;"><i>La base de donnée ne comporte qu'une table "utilisateurs", avec, pour effectuer des tests, un premier élément "admin" pré-enregistré dedans.</i></p>
+                                        </div>
+                                    
+
+
+                                        <div style="width: 80%; margin: 50px auto; text-align: left;">
+
+                                            <h2 style="margin-bottom:20px;font-size:2em; text-align: center;">Utilisation de MySql.Data</h2>
+
+                                            <p style="margin-bottom: 30px;">Après avoir créé un projet C#, nous avons importé la bibliothèque "MySql.Data", qui comprends un ensemble de classes et de methodes qui facilitent la connexion et l'interaction avec une base de donnée.</p>
+
+
+                                            <h3 style="margin:50px 0 20px 0;font-size:1.2em; text-align: center;">Connexion à la base de donnée</h3>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto;">
+                                               <img src="Images/Projet2/mysqlConnection.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                                <p style="font-size: 0.9em;">
+                                                    Ci-contre Nous avons créé une methode <b>connect()</b> qui prend en argument les differents parametres de connection à notre base de donnée. <br>Cette methode va en réalité encapsuler le constructeur de la classe <b>MySqlConnection</b> (qui sert a se connecter à une BDD) et factiliter son utilisation. 
+                                                    <br>
+                                                    Notre méthode retourne un nouvelle instance de connexion, qui pourra être stocké dans une variable par exemple.
+                                                </p>
+                                            </div>
+                                            
+                                            <br>
+                                            <p></p>
+
+                                            
+                                            <h3 style="margin-bottom:20px;font-size:1.2em; text-align: center;">Créations de methodes</h3>
+
+                                            <p style="margin-bottom: 50px;">Il nous a fallu ensuite créer les différentes methodes permettant de créer un utilisateur, de connecter un utilisateur, et d'afficher les differents utilisateurs, chaque méthode utilisera l'objet de connexion établie plus haut.</p>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+                                                <p style="font-size: 0.9em; width: 95%;">
+                                                    <b>createUser( )</b> <br> Cette methode va permettre l'ajout d'un élément dans notre base de donnée avec les entrées utilisateur. <br>
+                                                    Le pseudo et le mot de passe sont récupérés dans des variables, et la variable <b>password</b> est crypté grace à <b>Bcrypt</b>, une autre bibliothèque que nous utilisons ici.
+                                                    <br>
+                                                    Ensuite, la requete est stocké dans une variable <b>query</b>, on remarque que les elements variables de celle-ci sont précédés d'un <b>@</b>, ce dernier est là pour prévenir les injections SQL : c'est seulement apres le stockage de la requete dans un nouvel objet <b>_command</b> que ces éléments variables prennent leurs vrai valeur. <br>
+                                                    Il ne reste plus ensuite qu'à executer la requête.
+                                                </p>
+                                                <img src="Images/Projet2/createUser.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                             </div>
+
+                                             <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/Projet2/login.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="font-size: 0.9em;">
+                                                    <b>login( )</b> <br> Cette methode permet à un utilisateur de se connecter grâce à ses identifiants.<br>
+                                                    Le pseudo et le mot de passe sont de nouveau récupérés dans des variables. Une requete est ensuite construite pour récuperer le mot de passe dans la base de donnée à l'identifiant indiqué. On note ici l'utilisation d'un objet <b>_reader</b>, qui permet la lecture de donnée, à l'inverse de la méthode utilisée plus haut.
+                                                    <br>
+                                                    Le code vérifie ensuite que la requete est bien valide (que l'utilisateur à bien été trouvé), puis compare, grâce à <b>Bcrypt</b>, le mot de passe entré avec le mot de passe crypté de la base de donnée. si ces conditions échouent, l'utilisateur en est averti. <br>On "ferme" ensuite l'objet <b>_reader</b>.
+                                                </p>
+                                                
+                                             </div>
+
+
+                                             <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <p style="font-size: 0.9em; width: 95%;">
+                                                    <b>displayUser( )</b> <br> Cette methode permet d'afficher les différents utilisateurs, elle est utile ici pour verifier que notre méthode <b>createUser()</b> est fonctionnelle.<br>
+                                                    Rien de bien compliqué ici : on effectue encore une fois une requete, que l'on va stocker dans un objet <b>_reader</b>, puis on va tour à tour afficher le contenu de cet objet (qui équivaut à chaque fois à une ligne de la table).
+                                                </p>
+                                                
+                                                <img src="Images/Projet2/displayUser.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                             </div>
+
+                                        
+                                        </div>
+
+                                        <div style="margin: auto; width: 50%; border-bottom: 2px solid;"></div>
+
+                                        <div style="width: 70%; margin: 50px auto; padding-bottom: 50px;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">Conclusion</h2>
+
+                                            <p style="text-align: center;">Nous avons au final créé une connexion à notre base de donnée, et créé plusieurs methodes permettant la création, et la connexion d'un utilisateur.
+                                            De plus, nous avons permis à notre code d'être protégé des injections SQL, et avons renforcé la confidentialité des mots de passes en les cryptant.</p>
+                                        </div>
+
+                                    </div>
+                                </div>   
+                            </div>
+                            <!-- Projet 3 -->
+                            <div class="projet-intro">
+                                <h2>TP : Création de blog en PHP (MVC)</h2>
+                                <h4>Respect des standards de la profession</h4>
+                                <br>
+                                <img src="Images/ProjetMVC/ScreenshotProjMVC.png" alt="" onclick="togglePopup(3)">
+                                <br>
+                                <p>Création d'un blog en PHP en utilisant l'architecture Modèle/Vue/Controleur.</p>
+                                <br>
+                            </div>
+                            <div class="popup" id="popup-3">
+                                <div class="overlay" onclick="togglePopup(3)"></div>
+                                <div class="content">
+                                    
+                                    <div class="close-btn" onclick="togglePopup(3)">&times;</div>
+                                    
+                                    <div class="mainContent">
+
+                                        <h1 style="color: black;">Blog PHP avec architecture MVC</h1>
+                                        <br>
+                                        <div style="display: flex; flex-direction: column; width: 50%; margin: auto; padding: 40px 0;border-bottom: solid 2px;">
+                                            <h3>Compétences mises en oeuvre pour ce projet :</h3>
+                                            <ul style="list-style: none;">
+                                                <li style="padding-top: 10px;">Exploiter des normes et des standards</li>
+                                                <li style="padding-top: 10px;">Assurer la continuité d'un service</li>
+                                            </ul>
+                                        </div>
+                    
+                                        <div>
+                                            <p style="max-width: 70%; text-align: left; margin: 50px auto 8px auto; "><i>  Le but de ce TP à été de comprendre l'architecture <b>MVC</b> (Modèle/Vue/Controleur), qui est utilisé dans le milieu professionel (Laravel par exemple) pour sa <b>modularité</b> et <b>sa facilité de maintenance</b>.</i></p>
+
+                                            <p style="max-width: 70%; text-align: left; margin: 8px auto 50px auto;"><i>Nous avons donc ici réalisé un blog, très simple, en reprenant des methodes de connexion à une base de donnée similaires à celles effectués dans le projet <b>"Connexion à une base de donnée en C#"</b> (voir liste des projets). <br>
+                                            Peu à peu, nous avons fait évoluer notre code en le séparant progressivement en plusieurs fichiers, afin <b>d'éviter la redondance</b> et se diriger vers une architecture MVC.</i></p>
+                                        </div>
+                                        <div style="margin: auto; width: 50%; border-bottom: 2px solid;"></div>
+                                        
+
+                                        <div style="width: 80%; margin: 50px auto;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">L'architecture de base</h2>
+
+                                            <p style="text-align: left;">Nous avons à chaque étape sauvegardé une version de notre projet, pour observer les changements, malheureusement je n'ai pas conservé la configuration initiale, mais il faut simplement retenir que l'ensemble du code (affichage et logique) etait contenu dans un seul fichier <b>index.php</b>, à l'inverse de ce que nous allons voir par la suite...</p>
+                                        </div>
+                                        
+                                        <div style="width: 80%; margin: 50px auto;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">séparation intermédiaire</h2>
+                                            
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/ProjetMVC/archiV1.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="text-align: left;">Nous avons séparé notre code contenu alors intégralement dans <b>index.php</b> en plusieurs blocs, respectivement dans les fichiers <b>modele.php</b> et <b>vueAccueil.php</b></p>
+                                            </div>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <p style="text-align: left;">
+                                                    <b>index.php</b>
+                                                    <br>
+                                                    Ce fichier ne contient finalement plus que des requetes vers d'autres fichier, vers le <b>modele.php</b> pour les methodes propres a l'obtention des articles, et vers <b>vueAccueil.php</b> pour l'affichage de ces derniers. Il fait office ici de controleur, en assurant la liaison entre la vue et le modele.
+                                                </p>
+
+                                                <img src="Images/ProjetMVC/indexV1.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                            </div>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/ProjetMVC/modeleV1.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="text-align: left;">
+                                                    <b>modele.php</b>
+                                                    <br>
+                                                    Ce fichier contiendra l'ensemble des méthodes de requete vers la base de donnée, méthodes qui retourneront un ensemble de données utilisable par le controleur, et donc par les vues.
+                                                </p>
+                                            </div>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <p style="text-align: left;">
+                                                    <b>vueAccueil.php</b>
+                                                    <br>
+                                                    C'est le fichier qui contient (à ce stade) toute la partie HTML du projet. Il est appelé par <b>index.php</b> pour l'affichage des différentes données de la table.
+                                                </p>
+
+                                                <img src="Images/ProjetMVC/vueAccueilV1.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                            </div>
+
+                                        </div>
+
+                                        <div style="width: 80%; margin: 50px auto;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">séparation finale</h2>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/ProjetMVC/archiV2.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="text-align: left;">Ici nous allons plus loin dans la séparation, avec l'apparition des fichiers <b>controleur.php</b>, <b>params.php</b>, <b>gabarit.php</b> ainsi que des vues supplémentaires. A ce stade, plusieurs méthodes ont été rajoutées dans notre <b>modele.php</b>, mais nous allons nous concentrer sur les autres nouveautés.</p>
+                                            </div>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <p style="text-align: left;">
+                                                    <b>params.php</b>
+                                                    <br>
+                                                    Ce fichier va contenir les paramètres relatif à la connexion vers notre base de donnée, plutot que d'avoir à intervenir sur la chaine de caractère qui gère la requete (voir fichier <b>modele.php</b> plus haut) on les stock ici dans des variables utilisables par les autres fichiers.<br>
+                                                </p>
+
+                                                <img src="Images/ProjetMVC/paramsV2.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                            </div>
+
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/ProjetMVC/controleurV2.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="text-align: left;">
+                                                    <b>controleur.php</b>
+                                                    <br>
+                                                    Le fichier remplace ici une grosse partie du travail d'<b>index.php</b> précédemment, c'est maintenant ici que les methodes de <b>modele.php</b> sont appelées et utilisées, tout comme les vues qui vont êtres utiles pour l'affichage.
+                                                </p>
+
+                                                
+                                            </div>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <p style="text-align: left;">
+                                                    <b>Vues / vueAccueil.php</b>
+                                                    <br>
+                                                    On remarque que ce fichier a été allégé : on à enlevé toute la partie HTML d'"enrobage" (doctype, head, header et footer). On ne garde ici que la partie propre à ce que l'utilisateur va voir sur l'accueil de notre blog. La même chose est appliquées aux autres vues ajoutées dans cette version finales, avec chacune un contenu distinct. <br>
+                                                    La particularité ici est que les données HTML vont êtres gérés par les méthodes <b>ob_start()</b> et <b>ob_get_clean()</b>, ces dernières vont détourner ces données pour les stocker dans une variable <b>$contenu</b>.
+                                                </p>
+
+                                                <img src="Images/ProjetMVC/vueAccueilV2.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+                                            </div>
+
+
+
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/ProjetMVC/gabarit.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="text-align: left;">
+                                                    <b>gabarit.php</b>
+                                                    <br>
+                                                    Ce fichier est donc le "template" regroupant le code HTML commun à toutes les pages (doctype, head, header, footer). Le fichier contient dans son <b>main</b> la variable <b>$contenu</b> qui va recueillir le contenu différentes vues, qui ne contiendront alors que le code HTML relatif à leur page. <br>
+                                                </p>
+
+                                            </div>
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+
+                                                <p style="text-align: left;">
+                                                    <b>index.php</b>
+                                                    <br>
+                                                    Le point d'entrée de notre blog fait maintenant office de "controleur principal". Il va ici surtout appliquer des conditions aux differents affichages possible, dans le but de gérer les erreurs potentielles (connexion impossible à la base de donnée, aucun articles disponibles, etc) et de les afficher en conservant l'interface utilisateur du site, via <b>vueErreur.php.</b>
+                                                </p>
+
+                                                <img src="Images/ProjetMVC/indexV2.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                            </div>
+
+
+                                            <div style="display: grid; grid-template-columns: 50% 50%; justify-content: center; align-items: center; width: 100%; margin: 30px auto 60px auto;">
+
+                                                <img src="Images/ProjetMVC/archiFinale.png" alt="" style="border-radius: 5px; align-content: center; width: 90%; height: 100%;">
+
+                                                <p style="text-align: left;">
+                                                    <b>Et voilà !</b>
+                                                    <br>
+                                                    Après la création de sous-dossiers pour mieux organiser nos différents fichiers, on retrouve une architecture MVC propre et fonctionnelle.<br>
+                                                </p>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+
+                                        <div style="width: 80%; margin: 50px auto; text-align: left;">
+
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">Résultat</h2>
+
+
+                                            <img src="Images/ProjetMVC/ScreenshotProjMVC.png" alt="" style="width: 100%; margin: 20px 0 40px 0; border-radius: 8px;border: solid 2px black">
+
+                                        </div>
+
+                                        <div style="margin: auto; width: 50%; border-bottom: 2px solid;"></div>
+
+                                        <div style="width: 70%; margin: 50px auto; padding-bottom: 50px;">
+                                            <h2 style="margin-bottom: 20px; font-size: 2em; ">Conclusion</h2>
+
+                                            <p style="text-align: center;">Au cours de ce TP, nous avons donc pu faire evoluer notre code vers une forme plus structuré, et nottamment mieux adaptée au travail en équipe, de part sa modularité.</p>
+                                        </div>
+
+                                    </div>
+                                </div>   
+                            </div>
+
+                            <!-- Projet 4 -->
+
+                            <div class="projet-intro">
+                                <h2>Perso : Creation d'un blog avec Laravel</h2>
+                                <h4>Utiliser un standard professionnel</h4>
+                                <br>
+                                <img src="Images/ProjetPerso/ScreenshotBlogDuSon.png" alt="" onclick="togglePopup(4)">
+                                <br>
+                                <p>Création d'un blog avec Laravel, avec gestion et grades d'utilisateurs.</p>
+                                <br>
+                            </div>
+                            <div class="popup" id="popup-4">
+                                <div class="overlay" onclick="togglePopup(4)"></div>
+                                <div class="content">
+                                    
+                                    <div class="close-btn" onclick="togglePopup(4)">&times;</div>
+                                    
+                                    <div class="mainContent">
+
+                                        <h1 style="color: black;">Création de Blog avec Laravel 11</h1>
+                                        <br>
+                                        <div style="display: flex; flex-direction: column; width: 50%; margin: auto; padding: 40px 0;border-bottom: solid 2px;">
+                                            <h3>Compétences mises en oeuvre pour ce projet :</h3>
+                                            <ul style="list-style: none;">
+                                                <li style="padding-top: 10px;">Exploiter des normes et des standards</li>
+                                                <li style="padding-top: 10px;">Vérifier les niveaux d'habilitation des utilisateurs</li>
+                                                <li style="padding-top: 10px;">Verifier le respect des normes de sécurité</li>
+                                                <li style="padding-top: 10px;">Assurer la maintenabilité d'un service</li>
+                                                <li style="padding-top: 10px;">Analyser les objectifs d'un projet et organiser sa mise en oeuvre</li>
+                                                <li style="padding-top: 10px;">Mettre en place un environnement d'apprentissage personnel</li>
+                                            </ul>
+                                        </div>
+                    
+                                        <div>
+                                            <p style="max-width: 70%; text-align: left; margin: 50px auto 8px auto; "><i>Ce projet est en réalité une suite "logique" au TP "blog MVC" réalisé en cours, n'ayant pas encore d'alternance, je propose ici un projet personnel.</i></p>
+
+                                            <p style="max-width: 70%; text-align: left; margin: 8px auto 50px auto;"><i>L'objectif de ce projet est la création d'un blog en utilisant <b>Laravel 11</b>, avec une <b>connexion requise</b> pour effectuer des actions, ainsi que la mise en place de <b>grades utilisateurs</b> pour conditionner le champ d'actions.</i></p>
+                                        </div>
+
+                                    </div>
+                                </div>   
+                            </div>
+
+
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="four" id="veille">
+                    <div class="mainbox">
+                        
+                        <div class="box4scroll">
+                            <div class="topBlack"></div>
+                            
+
+                            <div class="title">
+                                <h1>Veille technologique</h1>
+                                <div class="rssAnimLogo">
+                                    <img src="Images/icones/rssIconMin.png" alt="" id="rssMin">
+                                    <img src="Images/icones/rssIconMid.png" alt="" id="rssMid">
+                                    <img src="Images/icones/rssIconMax.png" alt="" id="rssMax">
+                                </div>
+                                
+                            </div>
+                            <div class="vtContent">
+                                <p class="vtIntro">Dans le domaine informatique, la veille technologique est primordiale : Elle nous permet de rester au courant des dernières nouveautés/avancées sur nos domaines de compétences, afin de les intégrer à notre workflow et rester ainsi à la pointe du progrès !</p>
+                                <p class="vtIntro">Cependant, suivre toutes les dernières actualités peut être compliqué mais heureusement, certains outils peuvent nous faciliter la vie.</p>
+                                <p class="vtIntro" id="lastVtIntro">Je vous présente ici l'outil que j'utilise pour rester alerte, ainsi que la facon dont je m'en sert :</p>
+
+                                <div class="feedlyBox">
+                                    <a href="https://feedly.com/" target="_blank"><img src="Images/veilleTech/feedly.png" alt=""></a>
+                                    <div class="feedlyPre">
+                                        <h2>FEEDLY.</h2>
+                                        <p>Feedly est un outil qui permet de selectionner divers themes ou sources, et d'etre notifié dès qu'une nouveauté apparait sur notre séléction.</p>
+                                    </div>
+                                </div>
+                                
+                                <h4>Comment ça marche ?</h4>
+                                <p>Pour utiliser Feedly, il faut tout d'abord se créer un compte sur le site web, ensuite, nous pouvons séléctionner des sources/centres d'intêrets, et les classer librement par dossiers.</p>
+                                <p>Le service dispose d'une offre gratuite et payante, l'offre gratuite limitant le nombre de rubriques possible, et n'autorisant pas l'accès aux fonctionnalités "IA" (agrégation des news par centre d'interêts) entre autres que le site propose... </p>
+                                <div class="orgaVt">
+                                    <h2>Mon organisation.</h2>
+                                    <p>j'ai organisé ma veille au travers de 4 rubriques, regroupant chacunes plusieurs sources sur un theme bien particulier, voyons en détails :</p>
+                                </div>
+                                <div class="folds">
+                                    <div class="fold">
+                                        <h2>.Langages & Frameworks</h2>
+                                    </div>
+                                    <div class="fold f2">
+                                        <h2>.Cybersécurité</h2>
+                                    </div>
+                                    <div class="fold f2">
+                                        <h2>.Software & OS</h2>
+                                    </div>
+                                    <div class="fold">
+                                        <h2>.Actus Tech en général</h2>
+                                    </div>
+                                </div>
+
+
+                                <div class="orgaVt" style="margin-top: 200px;">
+                                    <h2>Mon sujet.</h2>
+
+                                    <p style="font-size: 1.3em;">J'ai décidé de choisir <b>Tailwind CSS</b> comme sujet de veille technologique : Je vous explique donc pourquoi mon choix s'est porté là dessus, et sa pertinence dans le developpement web.</p>
+
+
+                                    <div style="display: grid; grid-template-columns: 30% 70%; width: 900px; max-width: 95%; gap: 20px; align-items: center; margin: 80px 0 30px 0">
+                                        <a href="https://tailwindcss.com/" target="_blank"><img src="Images/veilleTech/tailwind-css-logo.png" alt="" style="width: 100%;"></a>
+                                        <div class="feedlyPre">
+                                            <p style="">
+                                                Tailwind CSS est Un framework du langage CSS, qui a pour but de simplifier et surtout de rendre plus fluide l'intégration de styles CSS au sein d'un projet, en ayant la possibilité d'appliquer son style directement dans nos fichiers HTML et ce de manière "optimisée".
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div style="display: grid; grid-template-columns: 50% 50%; width: 900px; max-width: 95%; gap: 20px; align-items: center; margin: 80px 0 50px 0">
+                                        <div>
+                                            <img src="Images/veilleTech/woutTW.png" alt="" style="width: 100%; border-radius: 8px;">
+                                            <p style="text-align: center; font-weight: normal; font-size: 0.8em;">Un exemple de code CSS classique</p>
+                                        </div>
+                                        <div>
+                                            <img src="Images/veilleTech/testWTW.png" alt="" style="width: 100%; border-radius: 8px;">
+                                            <p style="text-align: center; font-weight: normal; font-size: 0.8em;">Et le même code avec Tailwind CSS</p>
+                                        </div>
+                                        
+                                    </div>
+
+
+
+                                    <p style="font-weight: normal;">Ce framework vient se proposer en alternative à des frameworks comme <b>Bootstrap</b> par exemple. Il est devenu depuis sa sortie en 2017 un outil très populaire auprès des développeurs, et j'estime que son apprentissage est une vrai plus-value d'un point de vue professionnel, d'où ma volonté de me renseigner sur ce sujet.</p>
+
+                                    <h2 style="font-size: 1.7em; margin-top: 50px;">L'intêret</h2>
+
+
+                                    <p style="font-weight: normal;">L'ajout de CSS dans un projet est souvent une tâche laborieuse, la pratique "standard" est de définir des classes à nos balises HTML, et ensuite, à l'interieur d'un fichier CSS, de joindre des directives de style à ces classe. Cette façon de faire est certe efficace pour les projets simples, mais dès que ce dernier se s'enrichi et que les besoins de design s'etoffent ou deviennent plus "situationnels", le ou les fichiers CSS deviennent vite chaotiques, et long. 
+                                    
+                                    </p>
+
+                                    <p style="margin-top: 15px;">Tailwind CSS va nous donner accès à une librairie de classes "utilitaires" CSS qui correspondent toutes à une directive css en particulier, L'ensemble de ces classes sont accessibles depuis leur <a href="https://tailwindcss.com/docs/installation" target="_blank" style="color: white;">site officiel</a> (passage obligé durant l'apprentissage du framework).</p>
+
+                                    <p style="margin-top: 30px;">Même si l'ajout de style directement sur une balise est possible nativement en HTML, la syntaxe adopté par Tailwind CSS rend ce dernier beaucoup plus efficace en pratique :</p>
+
+                                    <div style="margin: 30px 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px;">
+                                        <img src="Images/veilleTech/styleWoutTW.png" alt="" style="width: 800px; border-radius: 8px;">
+                                        <img src="Images/veilleTech/styleWTW.png" alt="" style="width: 500px; border-radius: 8px;">
+                                        <p style="text-align: center; font-weight: normal; font-size: 0.8em;">On remarque ici que la syntaxe est bien plus efficiente à résultat équivalent.</p>
+                                    </div>
+
+                                    <p style="font-weight: normal;" >Le framework se révèle donc d'une efficacité redoutable sur des projets complexes, et se prête à merveille à l'attribution de style situationnelle (on évite d'avoir à créer une classe ou un id pour un seul élément de notre projet), tout en conservant bien sur la possibilité de créer des classes personnalisées si un style est requis plusieurs fois.</p>
+
+
+                                    <h2 style="font-size: 1.7em; margin-top: 60px;">Mise en place</h2>
+
+                                    <p>Pour sa configuration, tailwind CSS nous offre plusieurs choix qui sont détaillés sur leur <a href="https://tailwindcss.com/docs/installation" target="_blank" style="color: white;">site</a>:</p>
+
+                                    <h2 style="font-size: 1.1em; margin-top: 40px;">L'ajout du script Play CDN</h2>
+
+                                    <p style="font-weight: normal;">Il est possible d'utiliser le framework simplement en ajoutant un script spécifique au <<span style="color: rgb(255, 78, 78);">head</span>> de notre fichier HTML.</p>
+
+                                    <img src="Images/veilleTech/playCDNscript.png" alt="" style="width: 500px; border-radius: 8px; margin: 20px 0;">
+
+                                    <p style="font-weight: normal;">Cette facon de faire est cependant déconseillée, surtout si le projet à pour but de partir en production, la seconde méthode de configuration offre plus de flexibilité/controle et est plus adaptée le cas échéant. Cependant, l'ajout du script reste un moyen simple et rapide de découvrir le framework.</p>
+
+
+                                    <h2 style="font-size: 1.1em; margin-top: 60px;">L'installation locale</h2>
+
+                                    <p style="font-weight: normal;">Ici Tailwind CSS va venir installer les dépendances dont il a besoin pour fonctionner, directement dans notre projet. Cette installation peut se faire de plusieurs manières différentes, selon l'environnement de travail :</p>
+                                    <div style="display: flex; flex-direction: column; width: 800px; margin: 20px 0;">
+                                        <ul>
+                                            <li><a href="https://tailwindcss.com/docs/installation" target="_blank" style="color: white;">environnement Node.js</a></li>
+                                            <li><a href="https://tailwindcss.com/blog/standalone-cli" target="_blank" style="color: white;">Stand-alone</a></li>
+                                            <li><a href="https://tailwindcss.com/docs/installation/using-postcss" target="_blank" style="color: white;">En tant que plug-in PostCSS</a></li>
+                                        </ul>
+                                    </div>
+                                    
+
+                                    <p style="font-weight: normal;">De plus, une <a href="https://tailwindcss.com/docs/installation/framework-guides" target="_blank" style="color: white;">documentation</a> est disponible pour faciliter l'installation et la configuration dans de multiples environnements de travail (laravel par exemple).</p>
+
+                                    <p style="font-weight: normal; margin-top: 10px;">Comme évoqué plus haut, l'avantage d'une installation locale permet d'avoir plus de controle sur le framework, avec en particulier la possibilité, une fois le projet terminé, de <b>purger</b> les classes utilitaires qui ne sont pas utilisées, ou encore compacter notre code CSS pour réduire son nombre de lignes, afin d'envoyer en production le code le plus léger et optimisé possible.</p>
+
+
+
+                                    <h2 style="font-size: 1.7em; margin-top: 60px;">Différences avec Bootstrap</h2>
+
+                                    <p> Bootstrap est l'autre framework CSS le plus utilisé de nos jours, j'ai jugé pertinent de comparer les différences entre celui ci et Tailwind CSS, pour comprendre les forces et faiblesses de ce dernier face à un de ses concurrent.</p>
+
+
+                                    <p style="font-weight: normal; margin-top: 30px;">Les deux frameworks fonctionnent principalement avec de l'intégration de code CSS directement dans les balises HTML via des classes pré-établies, mais la difference va se faire au niveau du contenu de ces classes.</p>
+
+                                    <p style="font-weight: normal; margin-top: 20px;">Bootstrap va fonctionner autours de classes <b>composants</b>, qui vont être une associations de plusieurs directives CSS, qui auront pour résultat un design complet <b>prêt à l'emploi</b>.</p>
+                                    <p style="font-weight: normal; margin-top: 10px;">Tailwind CSS se définit comme "utilities-first", ce qui se traduit par des classes <b>utilitaires</b> qui, comme expliqué plus haut, ne sont associés qu'a une seule directive CSS (une sorte de raccourci si l'on veut...). </p>
+
+                                    <p style="font-weight: normal; margin-top: 10px;">Ainsi, là ou Bootstrap permet d'obtenir un résultat visuellement satisfaisant plus rapidement, Tailwind CSS reste nettement plus personnalisable dans sa conception.</p>
+
+
+                                    <div style="display: grid; grid-template-columns: 40% 60%; width: 900px; max-width: 95%; gap: 20px; align-items: center; margin: 40px 0 30px 0">
+                                        <a href="https://tailwindui.com/" target="_blank"><img src="Images/veilleTech/tailwindUI.png" alt="" style="width: 100%;"></a>
+                                        <div class="feedlyPre">
+                                            <p style="font-weight: normal;">
+                                                Cependant, en 2020, les créateurs de Tailwind ont mis à disposition une offre payante nommée <b><a href="https://tailwindui.com" target="_blank" style="color: white;">Tailwind UI</a></b> qui propose un large choix de designs basées sur leur framework et prêts à l'emploi, ce qui peut combler les différences du framework face à d'autres comme Bootstrap.
+                                            </p>
+                                        </div>
+                                    </div>
+                        
+
+
+
+
+                            
+                                </div>
+                                
+                            </div>
+
+                            <div class="bottomShadow"></div>
+                        </div>
+
+                        
+                    </div>
+                    
+                </section>
+
+                <section class="five" id="contact">
+                    <div class="mainbox">
+
+                        <div class="content">
+
+                        
+
+                            <div class="left">
+                                <h1>Me contacter...</h1>
+                                <p>Vous pouvez facilement me contacter par téléphone, mail, ou via mes réseaux sociaux !</p>
+                                <div class="coordonnees">
+                                    <div class="line">
+                                        <img src="Images/icones/455705.png" alt="">
+                                        <p>12 34 56 78 90</p>
+                                    </div>
+                                    <div class="line">
+                                        <img src="Images/icones/email.png" alt="">
+                                        <p>carpita.nicolas@gmail.com</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="reseauLink">
+                                    <a href=""><img src="Images/icones/linkedinBW.png" alt="" id="linkedin"></a>
+                                    <a href=""><img src="Images/icones/instaBW.png" alt="" id="insta"></a>
+                                    <a href=""><img src="Images/icones/fbBW.png" alt="" id="facebook"></a>
+                                </div>
+                            </div>
+
+
+                            <div class="right">
+                                <form action="submit">
+                                    <div class="nomPrenom">
+                                    <input type="text" name="Nom" placeholder="Nom" required>
+                                    <input type="text" name="Prenom" placeholder="Prénom" required>  
+                                    </div>
+                                    <div class="mail">
+                                        <input type="text" name="Mail" placeholder="E-Mail">
+                                    </div>
+                                    <div class="zoneTxt">
+                                        <textarea name="contenu" id="content" placeholder="Ecrivez votre message..."></textarea></div>
+                                    
+                                    
+                                    <div class="sub">
+                                    <button onclick="submit">Envoyer</button> 
+                                    </div>
+                                    
+                                    
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Merci pour votre visite <br>Copyright Nicolas CARPITA 2024</p>
+        </footer>
+        
+            
+    </div>
+</body>
+</html>
